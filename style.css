@@ -53,7 +53,7 @@ a:hover {
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rbg(181, 181, 181);
+    text-decoration-color: #35ce8d;
 }
 
 .logo {
@@ -62,6 +62,8 @@ a:hover {
 
 .logo:hover{
     cursor: default;
+    transform: scale(1.5);
+    color: #35ce8d;
 }
 
 /* HAMBURGER MENU */
@@ -169,8 +171,8 @@ section {
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     margin: auto 0;
 }
 
@@ -230,7 +232,7 @@ section {
 
 .btn-color-1, 
 .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: #35ce8d 0.1rem solid;
 }
 
 .btn-color-1:hover, 
@@ -239,7 +241,7 @@ section {
 }
 .btn-color-1, 
 .btn-color-2:hover {
-    background: rgb(53, 53, 53);
+    background: #35ce8d;
     color: white;
 }
 
