@@ -101,7 +101,7 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
-.menu-links {
+.menu-links a {
     display: block;
     padding: 10px;
     text-align: center;
@@ -213,6 +213,7 @@ section {
 }
 
 /* BUTTONS */
+
 .btn-container {
     display: flex;
     justify-content: center;
